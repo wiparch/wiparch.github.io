@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const basePath = process.env.NODE_ENV === "production" ? "https://github.wiparch.io/gitfolio" : "";
+const basePath = process.env.NODE_ENV === "production" ? "https://github.com/wiparch/wiparch.github.io" : "";
 
 export default function Home() {
   return (
