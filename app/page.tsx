@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const basePath = process.env.NODE_ENV === "production" ? "/gfbs3-portfolio-demo" : "";
+const basePath = process.env.NODE_ENV === "production" ? "https://github.wiparch.io/gitfolio" : "";
 
 export default function Home() {
   return (
@@ -19,7 +19,7 @@ export default function Home() {
             href="/" 
             className="text-lg font-bold tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-fuchsia-400 hover:to-cyan-400 transition-all duration-300"
           >
-            GITFOLIO
+            wiparch
           </Link>
           <div className="flex gap-8 text-xs font-bold tracking-widest uppercase text-cyan-700/80">
             <Link href="#work" className="hover:text-cyan-400 hover:drop-shadow-[0_0_5px_rgba(34,211,238,0.8)] transition-all">PROJECTS</Link>
